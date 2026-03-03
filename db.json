@@ -1,0 +1,201 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "orderFromSun": 1,
+      "type": "terrestrial",
+      "diameterKm": 4879,
+      "massKg": 3.30e23,
+      "gravityMs2": 3.7,
+      "orbitalPeriodDays": 88,
+      "rotationPeriodDays": 58.6,
+      "moons": {
+        "count": 0,
+        "names": []
+      },
+      "hasRingSystem": false,
+      "averageTemperatureC": 167,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Oxygen", "percentage": 42},
+          {"gas": "Sodium", "percentage": 29},
+          {"gas": "Hydrogen", "percentage": 22},
+          {"gas": "Helium", "percentage": 6},
+          {"gas": "Potassium", "percentage": 0.5}
+        ],
+        "surfacePressure": "extremely low (~10⁻¹⁴ bar)"
+      }
+    },
+    {
+      "name": "Venus",
+      "orderFromSun": 2,
+      "type": "terrestrial",
+      "diameterKm": 12104,
+      "massKg": 4.87e24,
+      "gravityMs2": 8.87,
+      "orbitalPeriodDays": 224.7,
+      "rotationPeriodDays": -243,
+      "moons": {
+        "count": 0,
+        "names": []
+      },
+      "hasRingSystem": false,
+      "averageTemperatureC": 464,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Carbon dioxide", "percentage": 96.5},
+          {"gas": "Nitrogen", "percentage": 3.5}
+        ],
+        "surfacePressure": "92 bar"
+      }
+    },
+    {
+      "name": "Earth",
+      "orderFromSun": 3,
+      "type": "terrestrial",
+      "diameterKm": 12742,
+      "massKg": 5.97e24,
+      "gravityMs2": 9.81,
+      "orbitalPeriodDays": 365.25,
+      "rotationPeriodDays": 0.997,
+      "moons": {
+        "count": 1,
+        "names": ["Moon"]
+      },
+      "hasRingSystem": false,
+      "averageTemperatureC": 15,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Nitrogen", "percentage": 78.08},
+          {"gas": "Oxygen", "percentage": 20.95},
+          {"gas": "Argon", "percentage": 0.93},
+          {"gas": "Carbon dioxide", "percentage": 0.0407}
+        ],
+        "surfacePressure": "1.013 bar"
+      },
+      "life": {
+        "hasLife": true,
+        "dominantSpecies": "Homo sapiens",
+        "biodiversityLevel": "extremely high"
+      }
+    },
+    {
+      "name": "Mars",
+      "orderFromSun": 4,
+      "type": "terrestrial",
+      "diameterKm": 6779,
+      "massKg": 6.42e23,
+      "gravityMs2": 3.71,
+      "orbitalPeriodDays": 687,
+      "rotationPeriodDays": 1.026,
+      "moons": {
+        "count": 2,
+        "names": ["Phobos", "Deimos"]
+      },
+      "hasRingSystem": false,
+      "averageTemperatureC": -65,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Carbon dioxide", "percentage": 95.3},
+          {"gas": "Nitrogen", "percentage": 2.7},
+          {"gas": "Argon", "percentage": 1.6}
+        ],
+        "surfacePressure": "0.006 bar"
+      }
+    },
+    {
+      "name": "Jupiter",
+      "orderFromSun": 5,
+      "type": "gas giant",
+      "diameterKm": 139820,
+      "massKg": 1.898e27,
+      "gravityMs2": 24.79,
+      "orbitalPeriodDays": 4333,
+      "rotationPeriodDays": 0.41,
+      "moons": {
+        "count": 95,
+        "names": ["Io", "Europa", "Ganymede", "Callisto"]
+      },
+      "hasRingSystem": true,
+      "averageTemperatureC": -110,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Hydrogen", "percentage": 90},
+          {"gas": "Helium", "percentage": 10}
+        ],
+        "notableFeature": "Great Red Spot"
+      }
+    },
+    {
+      "name": "Saturn",
+      "orderFromSun": 6,
+      "type": "gas giant",
+      "diameterKm": 116460,
+      "massKg": 5.683e26,
+      "gravityMs2": 10.44,
+      "orbitalPeriodDays": 10759,
+      "rotationPeriodDays": 0.45,
+      "moons": {
+        "count": 146,
+        "names": ["Titan", "Rhea", "Iapetus", "Dione", "Tethys"]
+      },
+      "hasRingSystem": true,
+      "ringDescription": "most prominent and complex ring system",
+      "averageTemperatureC": -140,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Hydrogen", "percentage": 96.3},
+          {"gas": "Helium", "percentage": 3.25}
+        ]
+      }
+    },
+    {
+      "name": "Uranus",
+      "orderFromSun": 7,
+      "type": "ice giant",
+      "diameterKm": 50724,
+      "massKg": 8.681e25,
+      "gravityMs2": 8.69,
+      "orbitalPeriodDays": 30687,
+      "rotationPeriodDays": -0.72,
+      "moons": {
+        "count": 28,
+        "names": ["Titania", "Oberon", "Umbriel", "Ariel", "Miranda"]
+      },
+      "hasRingSystem": true,
+      "averageTemperatureC": -195,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Hydrogen", "percentage": 83},
+          {"gas": "Helium", "percentage": 15},
+          {"gas": "Methane", "percentage": 2.3}
+        ],
+        "notableFeature": "extreme axial tilt (97.8°)"
+      }
+    },
+    {
+      "name": "Neptune",
+      "orderFromSun": 8,
+      "type": "ice giant",
+      "diameterKm": 49244,
+      "massKg": 1.024e26,
+      "gravityMs2": 11.15,
+      "orbitalPeriodDays": 60190,
+      "rotationPeriodDays": 0.67,
+      "moons": {
+        "count": 16,
+        "names": ["Triton", "Proteus", "Nereid"]
+      },
+      "hasRingSystem": true,
+      "averageTemperatureC": -200,
+      "atmosphere": {
+        "composition": [
+          {"gas": "Hydrogen", "percentage": 80},
+          {"gas": "Helium", "percentage": 19},
+          {"gas": "Methane", "percentage": 1.5}
+        ],
+        "notableFeature": "strongest winds in the solar system"
+      }
+    }
+  ]
+}
